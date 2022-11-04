@@ -76,7 +76,7 @@ void mean_filter(const Image *orig, Image *new, int n){
 
 int main(int argc, char **argv){
 	if(argc!=2){
-		printf("Usage: ./noise_filter <input-image-name>\n");
+		printf("Usage: ./noise_filter_gauss <input-image-name>\n");
 		exit(1);
 	}
 	int kernel=3;
